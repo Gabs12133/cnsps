@@ -1,0 +1,43 @@
+
+
+ .visita_cont {
+    display: flex;
+        align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    gap: 18px;
+    box-shadow: 4px 4px 12px #aaaa;
+ }
+ .visitacorpo {
+    display: flex;
+    flex-direction: column;
+    
+ }
+
+ #mapa {
+    aspect-ratio: 4/3;
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+ }
+
+ #visita .title {
+    font-size: 3rem;
+    color: #1d1d1dad;
+ }
+
+ .visita-text {
+   margin: 0% 15% ;
+}
+.visita-text span {
+   color: #e2a209;
+}
+
+ @media screen and (max-width: 1170px){
+    
+    .visita_cont {
+        display: flex;
+        flex-direction: column;
+ }
+ }

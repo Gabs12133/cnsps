@@ -1,0 +1,52 @@
+#areaaluno {
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+
+#aluno {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    
+}
+
+.alunoinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    gap: 18px;
+    width: 50%;
+    box-shadow: 4px 4px 12px #aaaa;
+}
+.alunoinfo a {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+
+.alunoinfo a:hover {
+    color: #e2a209;
+}
+
+.alunoinfo img{
+    width: 300px;
+    height: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+    #aluno {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .alunoinfo img{
+        width: 150px;
+        height: 150px;
+    }
+ .alunoinfo{
+    width: 100%;
+ }
+}

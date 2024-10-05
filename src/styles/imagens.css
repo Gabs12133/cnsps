@@ -1,0 +1,40 @@
+#imagens {
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+#gridimagens {
+    display: flex;
+   
+    gap: 18px;
+
+}
+
+#gridimagens img {
+    width: 250px;
+    height: 150px;
+    gap: 18px;
+    border-radius: 12px;
+    -webkit-filter:grayscale(0%);
+    box-shadow: 4px 4px 12px #aaaa;
+}
+
+#gridimagens img:hover{
+    -webkit-filter:grayscale(40%);
+    transition: 0.3s;
+}
+
+
+
+@media screen and (max-width: 1700px) {
+    #gridimagens {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    #gridimagens img {
+        width: 100%;
+    }
+}
+
